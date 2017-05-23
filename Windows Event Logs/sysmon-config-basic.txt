@@ -1,0 +1,18 @@
+<Sysmon schemaversion="2.0">
+  <!-- Capture all hashes -->
+  <HashAlgorithms>*</HashAlgorithms>
+  <EventFiltering>
+    <!-- Log all drivers except if the signature -->
+    <!-- contains Microsoft or Windows -->
+    <DriverLoad onmatch="exclude">
+      <Signature condition="contains">microsoft</Signature>
+      <Signature condition="contains">windows</Signature>
+    </DriverLoad>
+    <!-- Do not log process termination -->
+    <ProcessTerminate onmatch="include" />
+    <!-- Log network connection if the destination port equal 443 -->
+    <NetworkConnect onmatch="include">
+      <DestinationPort>443</DestinationPort>
+    </NetworkConnect>
+  </EventFiltering>
+</Sysmon>

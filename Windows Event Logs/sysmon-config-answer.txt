@@ -1,0 +1,30 @@
+<Sysmon schemaversion="2.0">
+  <!-- Capture SHA1 hashes only -->
+  <HashAlgorithms>SHA1</HashAlgorithms>
+  <EventFiltering>
+    <!-- Log all drivers except if the signature contains Microsoft or Windows -->
+    <DriverLoad onmatch="exclude">
+      <Signature condition="contains">microsoft</Signature>
+      <Signature condition="contains">windows</Signature>
+    </DriverLoad>
+    <ImageLoad onmatch="exclude">
+      <Signature condition="contains">microsoft</Signature>
+      <Signature condition="contains">windows</Signature>
+    </ImageLoad>
+    <!-- Do not log process termination -->
+    <ProcessTerminate onmatch="include" />
+    <!-- Log network connections except port 137, 80 and 443 -->
+    <NetworkConnect onmatch="exclude">
+      <DestinationPort>80</DestinationPort>
+      <DestinationPort>137</DestinationPort>
+      <DestinationPort>443</DestinationPort>
+    </NetworkConnect>
+    <!-- Log process creation, except for listed hashes  -->
+    <ProcessCreate onmatch="exclude">
+      <!-- Ignore mspaint.exe -->
+      <Hashes condition="contains">940AB7560CE82650CD59926AEDDFACCB461CABEE</Hashes>
+      <!-- Ignore notepad.exe -->
+      <Hashes condition="contains">DF67491EFF9A68119C1E182620A0BE960CE1BF70</Hashes>
+    </ProcessCreate>
+  </EventFiltering>
+</Sysmon>
