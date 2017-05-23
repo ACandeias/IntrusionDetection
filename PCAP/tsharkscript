@@ -1,0 +1,12 @@
+#!/bin/bash
+echo Enter PCAP Name to analyze 
+#Prompt the user to enter pcap file name
+
+read filename
+#creating the filename variable from user input
+
+echo Printing destination domains and user agentstrings
+tshark -r $filename -Y http.request -T fields -e http.host -e http.user_agent
+
+echo Printing destination IP Addresses
+tshark -r $filename -T fields -e ip.dst ip.src | sort | uniq
