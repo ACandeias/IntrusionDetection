@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-06-02-18-25-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1286954334.532555	-	-	-	-	-	unknown_packet_type	-	F	bro
+1286954337.516188	CV9QtW2t19ZyxZAHf7	1.1.1.1	138	1.255.255.255	138	bad_UDP_checksum	-	F	bro
+1286954431.337321	Cs3Qut3y0KNUk7L5a7	192.168.2.31	1506	10.179.172.193	555	bad_TCP_checksum	-	F	bro
+1286954528.737648	CoBcIwWHFAodaH0Vj	192.168.2.31	138	192.168.2.255	138	bad_UDP_checksum	-	F	bro
+#close	2014-06-02-18-25-31

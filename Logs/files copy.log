@@ -1,0 +1,44 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-02-26-19-13-58
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1390332307.311500	F0q89X2NwfvkVhKCv	78.138.127.15	24.39.21.194	CzFgwE44STwEuWsov8	HTTP	0	(empty)	text/html	-	1.030041	-	F	258472	-	0	0	F	-	-	-	-	-
+1390332309.013085	FXvmoMTuXafwHvvCd	54.230.51.69	24.39.21.194	CuRVCr1qSJMY1M7lG	HTTP	0	(empty)	text/plain	-	0.000000	-	F	132	132	0	0	F	-	-	-	-	-
+1390332309.118257	FVX7Eq41X1DbfTDMrf	54.230.51.69	24.39.21.194	CuRVCr1qSJMY1M7lG	HTTP	0	(empty)	image/jpeg	-	0.000410	-	F	3430	3430	0	0	F	-	-	-	-	-
+1390332309.610231	Fk8hKR37GcIS4QoYK7	78.138.97.8	24.39.21.194	CQI3LLGKAjoC02CIf	HTTP	0	(empty)	application/x-shockwave-flash	-	0.000000	-	F	1966	1966	0	0	F	-	-	-	-	-
+1390332310.444685	FLq73y1KilF29S1Je	78.138.127.15	24.39.21.194	CzFgwE44STwEuWsov8	HTTP	0	(empty)	text/plain	-	0.004636	-	F	8643	-	0	0	F	-	-	-	-	-
+1390332310.593771	FAimaRUNt2FhVIQv8	54.230.48.82	24.39.21.194	CZFY3H1CEg3NO6RHQ1	HTTP	0	(empty)	text/html	-	0.000662	-	F	11023	-	0	0	F	-	-	-	-	-
+1390332310.611212	FHNK0z2OU2tw4czJNc	54.230.49.127	24.39.21.194	Ckrl0v2gq92LYponl7	HTTP	0	(empty)	image/png	-	0.071564	-	F	24236	24236	0	0	F	-	-	-	-	-
+1390332310.617237	F3M1n3RD91f4xC79k	54.230.49.127	24.39.21.194	CpvMeq4aNd4pQiNxj9	HTTP	0	(empty)	image/png	-	0.067838	-	F	24236	24236	0	0	F	-	-	-	-	-
+1390332310.624101	FPpSEmR6uqTzq9tSg	54.230.49.127	24.39.21.194	CydFFF3cx83yR8ll7b	HTTP	0	(empty)	image/png	-	0.067854	-	F	24236	24236	0	0	F	-	-	-	-	-
+1390332310.626672	FSssX01q149LJIhkK3	54.230.49.127	24.39.21.194	CipFJ93srkMwBjy5f4	HTTP	0	(empty)	image/png	-	0.067133	-	F	24236	24236	0	0	F	-	-	-	-	-
+1390332310.636953	FxOVmg2af2q3iZO0g3	54.230.49.127	24.39.21.194	CXZFowAYRnAwINiVi	HTTP	0	(empty)	image/png	-	0.063538	-	F	24236	24236	0	0	F	-	-	-	-	-
+1390332310.639472	F95kodNnV14GMLiff	54.230.49.127	24.39.21.194	CsVkfc1ovqLLqwtAI	HTTP	0	(empty)	image/png	-	0.066544	-	F	24236	24236	0	0	F	-	-	-	-	-
+1390332310.653019	FydQh93MAfXTOreFX3	54.230.49.127	24.39.21.194	Cw7WAGUHBTQ0AtlQf	HTTP	0	(empty)	image/png	-	0.054803	-	F	24236	24236	0	0	F	-	-	-	-	-
+1390332310.656267	FtvdTh4UR8gw3Oz8Nl	54.230.49.127	24.39.21.194	CpugIc2i51TXX7aYGj	HTTP	0	(empty)	image/png	-	0.058142	-	F	24236	24236	0	0	F	-	-	-	-	-
+1390332310.658910	FW0dEr1VEhZiM4PG67	54.230.49.127	24.39.21.194	C9LADJ28uwPOA05gd6	HTTP	0	(empty)	image/png	-	0.060243	-	F	24236	24236	0	0	F	-	-	-	-	-
+1390332310.671341	FsE6InhIotHEZFFMh	54.230.49.127	24.39.21.194	ChNX221qYuolx3yice	HTTP	0	(empty)	image/png	-	0.051905	-	F	24236	24236	0	0	F	-	-	-	-	-
+1390332310.959369	FXUzgb1jZHq3u0JO7d	54.230.52.235	24.39.21.194	Cu1ggR1mHg07Ti01ll	HTTP	0	(empty)	application/x-dosexec	-	0.000491	-	F	3732	45662	0	0	F	-	-	-	-	-
+1390332310.982351	F2mHNE3yf2jB6BYDK9	54.230.49.127	24.39.21.194	CXZFowAYRnAwINiVi	HTTP	0	(empty)	image/png	-	0.000333	-	F	3921	3921	0	0	F	-	-	-	-	-
+1390332310.986548	F0ptgk417dTqGVhpd3	54.230.49.127	24.39.21.194	CsVkfc1ovqLLqwtAI	HTTP	0	(empty)	image/png	-	0.000334	-	F	3921	3921	0	0	F	-	-	-	-	-
+1390332310.977648	FxAo9Q3JlqTvS1lYYi	54.230.49.127	24.39.21.194	CipFJ93srkMwBjy5f4	HTTP	0	(empty)	image/png	-	0.031716	-	F	24236	24236	0	0	F	-	-	-	-	-
+1390332311.027717	FHOmUw2mpoNKcov3ad	54.230.52.235	24.39.21.194	Cglk1E3CeSFhQ8jicc,Cw01A1G3rhDrRQzJ7,CDHtzf3GSb3leKbSO3,CX7Hmw1ULxXtrFeUe2,CQfE803Yhp2qrxtcp5,C1ATiU3sXGxQH4hDqd,CnmnHlytJrCTtQXGh,CLSBec2wUpvexDcFak	HTTP	0	(empty)	application/x-dosexec	-	0.162318	-	F	45820	45662	0	0	F	-	-	-	-	-
+1390332311.517758	F3GB664efMfYG1Zr6a	212.7.212.137	24.39.21.194	CCF1mt2e52Fj9ErK71	HTTP	0	(empty)	application/x-dosexec	-	0.000175	-	F	2693	279752	0	0	F	-	-	-	-	-
+1390332311.757920	FqOXK134bKJa75SFeh	212.7.212.137	24.39.21.194	CnuP7M1UxcNonmIPNl,CuvTqp8BslVlMpJb8,CkdPrj32nE75ClmrB3,CnRM533YmCDvTgdM65,CQW87u4iwizaUwT669,CYcc262MnypbwgN9zk,C6OffO38iQERkRgcYb,CvQWF4o1LTIzLYpC6,CFMwsBQA7ZfM06ajg,C3zflf1cgpRovGnS8d	HTTP	0	(empty)	application/x-dosexec	-	0.770442	-	F	280112	279752	0	0	F	-	-	-	-	-
+1390332318.529168	Fxhk4318HOHhsOD3L8	54.230.51.225	24.39.21.194	C2mTmVWnoGQKCbu4f	HTTP	0	(empty)	application/x-dosexec	-	0.320195	-	F	203368	203368	0	0	F	-	-	-	-	-
+1390332319.486714	FTldk4gKiDMpSYYQg	74.125.22.139	24.39.21.194	CfUL4o2SwBEAHzSRsh	HTTP	0	(empty)	text/plain	-	0.044395	-	F	39992	-	0	0	F	-	-	-	-	-
+1390332319.952601	FJHYEO19GRVLVQpEOc	74.125.22.139	24.39.21.194	CfUL4o2SwBEAHzSRsh	HTTP	0	(empty)	image/gif	-	0.000000	-	F	35	35	0	0	F	-	-	-	-	-
+1390332320.954773	FNGW952mHfjYMDVmn6	70.186.131.172	24.39.21.194	CfK6Ld40NskiXKJrBa	HTTP	0	(empty)	text/plain	-	0.000003	-	F	3620	3620	0	0	F	-	-	-	-	-
+1390332322.070334	FACnOf2xLwvKWMnvFf	70.186.131.172	24.39.21.194	CfK6Ld40NskiXKJrBa	HTTP	0	(empty)	text/plain	-	0.000000	-	F	212	212	0	0	F	-	-	-	-	-
+1390332322.263272	Fii6FT3E6nCoxAfe68	93.184.215.163	24.39.21.194	Cklc6A12dgTC5Wp9Vc	HTTP	0	(empty)	application/x-dosexec	Setup.exe	0.604600	-	F	888208	888208	0	0	F	-	-	-	-	-
+1390332325.864435	Fnd7zw3xhmkcu1wZdj	70.186.131.172	24.39.21.194	CkE8Mq3smZMVejVyi3	HTTP	0	(empty)	text/plain	-	0.000369	-	F	3620	3620	0	0	F	-	-	-	-	-
+1390332328.724621	F1ShW11cbeVWIefpgc	70.186.131.172	24.39.21.194	CkE8Mq3smZMVejVyi3	HTTP	0	(empty)	text/plain	-	0.000000	-	F	484	484	0	0	F	-	-	-	-	-
+1390332330.473678	FY1qyj2HCh1jdJjawj	24.39.21.194	70.186.131.172	CHH6v22OYTAlEGLcOk	HTTP	0	(empty)	text/plain	-	0.000000	-	T	278	278	0	0	F	-	-	-	-	-
+1390332330.791195	FwLygZ8KFnnGgqEKg	70.186.131.172	24.39.21.194	CkE8Mq3smZMVejVyi3	HTTP	0	(empty)	text/plain	-	0.000000	-	F	41	41	0	0	F	-	-	-	-	-
+1390332335.096685	F9Y9rQAXKATG9CIpl	74.125.22.139	24.39.21.194	CfUL4o2SwBEAHzSRsh	HTTP	0	(empty)	image/gif	-	0.000000	-	F	35	35	0	0	F	-	-	-	-	-
+1390332311.190035	FHOmUw2mpoNKcov3ad	54.230.52.235	24.39.21.194	CX5iz112uNhXumFZFe,CkWWNa4SFjQZBD5STa,CQfE803Yhp2qrxtcp5,CnmnHlytJrCTtQXGh	HTTP	0	(empty)	application/octet-stream	-	0.028678	-	F	29516	45662	0	0	T	-	-	-	-	-
+#close	2014-02-26-19-13-58

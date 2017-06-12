@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-06-02-18-25-30
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1286954406.059879	FsrCUg1InSRueRvqjd	192.168.2.47	192.168.2.31	Ctmqea4tYzd5OnW5U1	HTTP	0	EXTRACT	application/x-dosexec	-	0.270935	-	F	80896	80896	0	0	F	-	-	-	-	/nsm/bro/extracted/HTTP-FsrCUg1InSRueRvqjd.exe
+1286954405.486080	FA9qcR3JdadQGwp4D4	192.168.2.47	192.168.2.30	C2uVJy4VTIlz6U7P12	HTTP	0	EXTRACT	application/x-dosexec	-	2.319993	-	F	80896	80896	0	0	F	-	-	-	-	/nsm/bro/extracted/HTTP-FA9qcR3JdadQGwp4D4.exe
+1286954404.888102	FbOO1phuwbbzjZQDg	192.168.2.47	192.168.2.32	CEAWby4v9Zu1ihXnb1	HTTP	0	EXTRACT	application/x-dosexec	-	2.957691	-	F	80896	80896	0	0	F	-	-	-	-	/nsm/bro/extracted/HTTP-FbOO1phuwbbzjZQDg.exe
+1286954452.304483	FJ5nq44vOmY6v966je	192.168.2.44	192.168.2.32	CrNB4Njn4TbYgP6ej	HTTP	0	EXTRACT	application/x-dosexec	-	0.030239	-	F	80896	80896	0	0	F	-	-	-	-	/nsm/bro/extracted/HTTP-FJ5nq44vOmY6v966je.exe
+1286954452.338334	FyyYzT2EGLGZ7zJbTb	192.168.2.44	192.168.2.31	CDtbT82h03q2EXcEmd	HTTP	0	EXTRACT	application/x-dosexec	-	0.034029	-	F	80896	80896	0	0	F	-	-	-	-	/nsm/bro/extracted/HTTP-FyyYzT2EGLGZ7zJbTb.exe
+1286954458.934273	FHBXKM3OyiZb90CXh1	192.168.2.44	192.168.2.30	Cr0JzB3y451lRxxQVh	HTTP	0	EXTRACT	application/x-dosexec	-	0.038663	-	F	80896	80896	0	0	F	-	-	-	-	/nsm/bro/extracted/HTTP-FHBXKM3OyiZb90CXh1.exe
+1286954470.171781	FUowTa4ZP1wDzzaFVf	192.168.2.32	192.168.2.44	C4tUOZ3vazh1C3I5Ih	HTTP	0	EXTRACT	application/x-dosexec	-	0.022953	-	F	80896	80896	0	0	F	-	-	-	-	/nsm/bro/extracted/HTTP-FUowTa4ZP1wDzzaFVf.exe
+1286954470.408476	FcFC68PTRDOMd5U65	192.168.2.32	192.168.2.47	C8ONnBaQ6bL8hFzx4	HTTP	0	EXTRACT	application/x-dosexec	-	0.026299	-	F	47976	80896	0	0	F	-	-	-	-	/nsm/bro/extracted/HTTP-FcFC68PTRDOMd5U65.exe
+#close	2014-06-02-18-25-31

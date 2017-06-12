@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-06-02-18-25-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1286954405.991475	Ctmqea4tYzd5OnW5U1	192.168.2.31	1414	192.168.2.47	26752	1	GET	192.168.2.47	/x	-	Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)	0	80896	200	OK	-	-	-	(empty)	-	-	-	-	-	FsrCUg1InSRueRvqjd	application/x-dosexec
+1286954405.478424	C2uVJy4VTIlz6U7P12	192.168.2.30	1740	192.168.2.47	26752	1	GET	192.168.2.47	/x	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727)	0	80896	200	OK	-	-	-	(empty)	-	-	-	-	-	FA9qcR3JdadQGwp4D4	application/x-dosexec
+1286954404.887583	CEAWby4v9Zu1ihXnb1	192.168.2.32	2164	192.168.2.47	26752	1	GET	192.168.2.47	/x	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322)	0	80896	200	OK	-	-	-	(empty)	-	-	-	-	-	FbOO1phuwbbzjZQDg	application/x-dosexec
+1286954452.302349	CrNB4Njn4TbYgP6ej	192.168.2.32	2489	192.168.2.44	15266	1	GET	192.168.2.44	/x	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322)	0	80896	200	OK	-	-	-	(empty)	-	-	-	-	-	FJ5nq44vOmY6v966je	application/x-dosexec
+1286954452.337252	CDtbT82h03q2EXcEmd	192.168.2.31	1630	192.168.2.44	15266	1	GET	192.168.2.44	/x	-	Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)	0	80896	200	OK	-	-	-	(empty)	-	-	-	-	-	FyyYzT2EGLGZ7zJbTb	application/x-dosexec
+1286954458.932612	Cr0JzB3y451lRxxQVh	192.168.2.30	2145	192.168.2.44	15266	1	GET	192.168.2.44	/x	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727)	0	80896	200	OK	-	-	-	(empty)	-	-	-	-	-	FHBXKM3OyiZb90CXh1	application/x-dosexec
+1286954470.163294	C4tUOZ3vazh1C3I5Ih	192.168.2.44	3507	192.168.2.32	25942	1	GET	192.168.2.32	/x	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	80896	200	OK	-	-	-	(empty)	-	-	-	-	-	FUowTa4ZP1wDzzaFVf	application/x-dosexec
+1286954470.407633	C8ONnBaQ6bL8hFzx4	192.168.2.47	3452	192.168.2.32	25942	1	GET	192.168.2.32	/x	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	0	47976	200	OK	-	-	-	(empty)	-	-	-	-	-	FcFC68PTRDOMd5U65	application/x-dosexec
+#close	2014-06-02-18-25-31
